@@ -1,14 +1,8 @@
-# OpenCV Facial Recognition
-# Written + Documented by Abdullah Khan
-
-# face_recognize.py
-# script used to: train a model on people's faces and recognize the faces using the client-side webcam stream
+# Written + Documented by Dindayal Pandey
 
 size = 4
 import cv2, sys, numpy, os
 
-# change the paths below to the location where these files are on your machine
-# haar_file path
 haar_file = 'C:/Users/Dany Pandey/Desktop/CrimminalDetection/haarcascade_frontalface_default.xml'
 # path to the main faces directory which contains all the sub_datasets
 datasets = 'C://Users//Dany Pandey//Desktop//CrimminalDetection//face'
